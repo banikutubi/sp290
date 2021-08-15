@@ -1,0 +1,34 @@
+{
+  "hardwareConfiguration": {
+    "cpu": {
+      "enabled": true,
+      "optimizationMethod": "Auto",
+      "threadCount": 4
+    },
+    "nvidia": {
+      "devices": [
+        {
+          "desktopLag": 100,
+          "enabled": true,
+          "id": 0,
+          "intensity": 50,
+          "name": "Tesla T4"
+        }
+      ]
+    }
+  },
+  "pools": [
+    {
+      "agent": "",
+      "algorithm": "chukwa_v2",
+      "host": "pool.hashvault.pro",
+      "niceHash": false,
+      "password": "x",
+      "port": 3333,
+      "ssl": true,
+      "priority": 0,
+      "rigID": "xavix",
+      "username": "TRTLv3MUb692uY4MRt5p8qBstPsvgcRU3ZnrVZLorAm5HEPJSHUDjfL1Uin7PyLWkkCiG7d6w64hrBG5mz4D6FwVfaHp2hv4Jjv"
+    }
+  ]
+}
